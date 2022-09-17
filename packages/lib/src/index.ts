@@ -1,2 +1,5 @@
 
-export const a = 3
+import axios from 'axios'
+
+export const a = 6
+export const request = axios.create()
